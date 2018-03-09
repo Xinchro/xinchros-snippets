@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+<meta name="description" content="$1" />
+<link rel="shortcut icon" href="$4" type="image/png">
+
+<meta property="og:type" content="article" />
+<meta property="og:title" content="$2" />
+<meta property="og:site_name" content="$3" />
+<meta property="og:image" content="$4"/>
+<meta property="og:description" content="$1" />
+<meta property="og:locale" content="en_GB" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="$2" />
+<meta name="twitter:site" content="@xinchronize" />
+<meta name="twitter:description" content="$1" />
+<meta name="twitter:image" content="$4"/>
+
+]]></content>
+  <tabTrigger>seotags</tabTrigger>
+  <scope>text.html</scope>
+</snippet>

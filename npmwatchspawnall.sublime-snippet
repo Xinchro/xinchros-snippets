@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+"watch:all": "watch-spawn -i -p \"$1/**/*.+(js|scss|html)\" $2",
+]]></content>
+  <tabTrigger>watchspawnall</tabTrigger>
+  <scope>source.json</scope>
+</snippet>

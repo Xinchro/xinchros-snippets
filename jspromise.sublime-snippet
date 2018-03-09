@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+Promise((res, rej) => {
+  $1
+  res($2)
+})
+]]></content>
+  <tabTrigger>Promise</tabTrigger>
+  <scope>source.js</scope>
+</snippet>
