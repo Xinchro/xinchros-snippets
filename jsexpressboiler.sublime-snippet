@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+const express = require("express")
+const app = express()
+
+app.get("/", (req, res) => res.send($1))
+
+const port = $2
+app.listen(port, () => console.log(`Example app listening on port \${port}!`))
+
+]]></content>
+  <tabTrigger>express</tabTrigger>
+  <scope>source.js</scope>
+</snippet>
