@@ -1,8 +1,8 @@
 <snippet>
   <content><![CDATA[
-.then(($1) => {
-  $2
-})
+  .then(($1) => {
+    $2
+  })
 ]]></content>
   <tabTrigger>.then</tabTrigger>
   <scope>source.js</scope>
